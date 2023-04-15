@@ -1,0 +1,76 @@
+
+body {
+    background-color: lightgray;
+    font-family: "Roboto";
+}
+
+.topo {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+}
+
+.produto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    cursor: pointer;
+    border: 5px solid white;    
+    
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+img {
+    width: 130px;
+    border-radius: 5px;
+    float: right;
+}
+
+p {
+    margin: ;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.botao {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FoodBox</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topo">
+            <h1>Faça seu Pedido</h1>
+            <h2>Monte seu pedido e receba em 15 minutos!</h2>
+        </div>
+
+        <h3>Primeiro, seu prato</h3>
+
+        <div id="frango" class="produto" onclick="escolherFrango()">
+            <img src="img/frango.jpg" alt="">
+            <h4>Frango Yin-Yang</h4>
+            <p>Um pouco de batata, um pouco de salada</p>
+            <p><strong>R$ 19,90</strong></p>
+        </div>
+
+        <div id="carne" class="produto" onclick="escolherCarne()">
+            <img src="img/carne.jpg" alt="">
+            <h4>Carne e salada</h4>
+            <p>Partida ao meio para parecer mais carne</p>
+            <p><strong>R$ 24,90</strong></p>
+        </div>
+
+        <h3>Agora, bebida</h3>
+
+        <div id="coca" class="produto" onclick="escolherCoca()">
+            <img src="img/coca.jpg" alt="">
+            <h4>Coca-cola gelada</h4>
+            <p>Normal, zero ou stevia</p>
+            <p>Vai na sorte</p>
+            <p><strong>R$ 5,90</strong></p>
+        </div>
+
+        <div id="refresco" class="produto" onclick="escolherRefresco()">
+            <img src="img/refresco.jpg" alt="">
+            <h4>Refresco</h4>
+            <p>Podia ser suco, mas leva água</p>
+            <p><strong>R$ 3,90</strong></p>
+        </div>
+
+        <h3>Por fim, sua sobremesa</h3>
+
+        <div id="pudim" class="produto" onclick="escolherPudim()">
+            <img src="img/pudim.webp" alt="">
+            <h4>Pudim</h4>
+            <p>Apenas um lindo e brilhante pudim</p>
+            <p><strong>R$ 7,90</strong></p>
+        </div>
+
+        <div id="sorvete" class="produto" onclick="escolherSorvete()">
+            <img src="img/sorvete.webp" alt="">
+            <h4>Sorvete bem gelado</h4>
+            <p>Três bolinhas como na foto</p>
+            <p><strong>R$ 6,90</strong></p>
+        </div>
+
+        <div class="botao" onclick="finalizarPedido()">
+            Finalizar pedido
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
