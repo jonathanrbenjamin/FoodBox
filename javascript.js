@@ -37,7 +37,7 @@ function escolherPudim() {
 function escolherSorvete() {
     document.getElementById("sorvete").style.borderColor = "green";
     document.getElementById("pudim").style.borderColor = "white";
-    presente = "Gulosimas"
+    presente = "Guloseimas"
 }
 
 function finalizarPedido() {
