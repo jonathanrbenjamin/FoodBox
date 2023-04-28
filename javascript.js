@@ -1,6 +1,6 @@
 let buque;
 let girassol;
-let sobremesa;
+let presente;
 
 function escolherFrango() {
     document.getElementById("frango").style.borderColor = "green";

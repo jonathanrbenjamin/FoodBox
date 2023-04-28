@@ -11,11 +11,12 @@ body {
 }
 
 .topo {
-    background-color: #228B22;
-    color: white;
+    background-color: #000;
+    color: #eb1ccc;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #bbbbbb;
+    height: 145px;
 }
 
 .produto {
@@ -69,13 +70,13 @@ p {
 }
 
 .botao {
-    background-color: green;
+    background-color: #000;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    color: white;
+    color: #eb1ccc;
     font-weight: bold;
     cursor: pointer;
     
