@@ -1,7 +1,13 @@
 
 body {
     background-color: lightgray;
-    font-family: "Roboto";
+    font-family: "Montserrat";
+}
+
+#feliz {
+    width: 70px;
+    height: 70px;
+    margin: 0;
 }
 
 .topo {
@@ -14,7 +20,7 @@ body {
 
 .produto {
     background-color: white;
-    padding: 15px;
+    padding: 25px;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 0 0 10px 0 #bbbbbb;

@@ -38,6 +38,7 @@ function escolherSorvete() {
     document.getElementById("sorvete").style.borderColor = "green";
     document.getElementById("pudim").style.borderColor = "white";
     presente = "Guloseimas"
+
 }
 
 function finalizarPedido() {
@@ -49,6 +50,6 @@ function finalizarPedido() {
     " e " +
     presente;
 
-    window.open("https://wa.me/+5511982299607?text=" + mensagem.clean(undefined))
+    window.open("https://wa.me/+5511982299607?text=" + mensagem)
 
 }
