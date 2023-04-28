@@ -49,6 +49,6 @@ function finalizarPedido() {
     " e " +
     presente;
 
-    window.open("https://wa.me/+5511982299607?text=" + mensagem)
+    window.open("https://wa.me/+5511982299607?text=" + mensagem.clean(undefined))
 
 }

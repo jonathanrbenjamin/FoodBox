@@ -48,7 +48,7 @@ h4 {
 }
 
 img {
-    width: 130px;
+    width: 140px;
     border-radius: 5px;
     float: right;
 }
@@ -72,5 +72,6 @@ p {
     color: white;
     font-weight: bold;
     cursor: pointer;
+    
 }
 
